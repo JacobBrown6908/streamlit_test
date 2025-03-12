@@ -13,4 +13,9 @@ st.write(f"Your Favourite movie is: {x}")
 
 is_click = st.button("Click Me")
 
-st.write("## Markdown Title using #")
+st.write("## Markdown Title using hashtags")
+
+import pandas as pd
+
+data = pd.read_csv("bdata_2linedata.csv")
+st.write(data)
