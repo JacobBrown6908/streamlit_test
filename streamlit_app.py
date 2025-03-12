@@ -18,4 +18,8 @@ st.write("## Markdown Title using hashtags")
 import pandas as pd
 
 data = pd.read_csv("rbdata_2linedata.csv")
+
+st.write("This is my battleship data form Math 425")
 st.write(data)
+
+st.line_chart(data)
