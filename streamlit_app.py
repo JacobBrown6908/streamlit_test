@@ -7,3 +7,6 @@ st.write(
 
 
 st.write("hellow world")
+
+x = st.text_input("favourite movie")
+st.write(f"Your Favourite movie is {x}")
