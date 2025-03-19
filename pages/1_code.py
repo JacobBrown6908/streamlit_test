@@ -24,9 +24,8 @@ col1.subheader("Interactive Functions")
 
 col1.write("#### st.button('')")
 col2.write("This function creates a button that can be clicked, with a varible that callable")
-is_click = col1.button("Click Me")
-if is_click:
-    st.experimental_open_url("https://www.youtube.com/shorts/SXHMnicI6Pg")
+is_click = col1.link_button("Click Me" ,"https://www.youtube.com/shorts/SXHMnicI6Pg")
+
 
 
 col1.write("#### st.text_input('')")
