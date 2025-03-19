@@ -24,7 +24,7 @@ col1.subheader("Interactive Functions")
 
 col1.write("#### st.button('')")
 col2.write("This function creates a button that can be clicked, with a varible that callable")
-is_click = st.button("Click Me")
+is_click = col1.button("Click Me")
 
 
 col1.write("#### st.text_input('')")
